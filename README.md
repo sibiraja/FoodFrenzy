@@ -5,10 +5,10 @@ folder in a separate terminal, and run "npm install" to download the necessary f
 
 After doing that, make sure to create an API key using Google Maps JS SDK API as well as Google Maps geocoding API (both free to do).
 
-Insert the SDK API key into index.html (located in the frontend folder) on line 29 in the script tag.
+Insert the SDK API key into index.html (located in the frontend folder and inside the public folder) on line 29 in the script tag.
 
-Insert the Geocoding API Key in the location.js (located in the backend folder) on line 13. After that, comment out the dummy coordinates in that same file
-(lines 12-16).
+Insert the Geocoding API Key in the location.js (located in the backend folder and inside the util folder) on line 13. After that, comment out the dummy coordinates in that same file
+(lines 8-11).
 
 Finally, create a MongoDB cluster and insert the connection string to the database in the app.js file within the backend folder on line 48.
 
