@@ -1,0 +1,48 @@
+.main-navigation__menu-btn {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: orange;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 2rem;
+  cursor: alias;
+}
+
+.main-navigation__menu-btn span {
+  font-size: 40px;
+  display: block;
+  width: 3rem;
+  height: 2.5px;
+  background: orange;
+}
+
+.main-navigation__title {
+  font-size: 50px;
+  color: #feb236;
+}
+
+.main-navigation__title a {
+  text-decoration: none;
+  color: #feb236;
+}
+
+.main-navigation__header-nav {
+  font-size: 20px;
+  display: none;
+}
+
+.main-navigation__drawer-nav {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .main-navigation__menu-btn {
+    display: none;
+  }
+
+  .main-navigation__header-nav {
+    display: block;
+  }
+}
